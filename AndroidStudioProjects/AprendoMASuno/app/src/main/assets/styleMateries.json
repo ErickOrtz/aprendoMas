@@ -1,0 +1,26 @@
+{
+  "mathematics": [
+    {
+      "Title": "Matemáticas",
+      "background": "@color/verde_lima"
+    }
+  ],
+  "spanish": [
+    {
+      "Title": "Español",
+      "background": "@color/azul_celeste"
+    }
+  ],
+  "history": [
+    {
+      "Title": "Historia",
+      "background": "@color/amarillo_brillante"
+    }
+  ],
+  "planets": [
+    {
+      "Title": "El Sistema Solar",
+      "background": "@color/amarillo_brillante"
+    }
+  ]
+}

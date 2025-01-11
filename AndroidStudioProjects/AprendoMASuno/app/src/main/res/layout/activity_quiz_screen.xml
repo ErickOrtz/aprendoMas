@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical"
+    tools:context=".quiz_Screen">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/textViewTitulo"
+            android:fontFamily="@font/fredoka_one"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="InvalidId"></TextView>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Text Pregunta -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <TextView
+
+                android:textSize="20sp"
+                android:textColor="@color/gris_oscuro"
+                android:padding="25dp"
+                android:gravity="center"
+                android:id="@+id/quizText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Answer A -->
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="20sp"
+                android:textColor="@color/gris_oscuro"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/aAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Answer B -->
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="20sp"
+                android:textColor="@color/gris_oscuro"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/bAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!-- Answer C -->
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="20sp"
+                android:textColor="@color/gris_oscuro"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/cAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Answer D -->
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="20sp"
+                android:textColor="@color/gris_oscuro"
+                android:padding="15dp"
+                android:gravity="center_vertical"
+                android:id="@+id/dAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardMensaje"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:visibility="invisible"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp">
+
+            <!-- Encabezado superior -->
+            <LinearLayout
+                android:id="@+id/LinearMensajeSuperior"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/TextMensajeSuperior"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Correcto" />
+            </LinearLayout>
+
+            <!-- Mensaje inferior -->
+            <LinearLayout
+                android:id="@+id/LinearMensajeInferior"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0dp"
+                android:gravity="center">
+
+                <!-- Texto del mensaje inferior -->
+                <TextView
+                    android:id="@+id/TextMensajeInferior"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="¡Increíble!" />
+
+                <!-- Botón debajo del texto -->
+                <!-- Botón para continuar -->
+                <Button
+                    android:id="@+id/BotonSiguiente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Siguiente"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

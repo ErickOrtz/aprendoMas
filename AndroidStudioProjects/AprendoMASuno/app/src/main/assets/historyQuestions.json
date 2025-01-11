@@ -1,0 +1,82 @@
+{ "Hist":[
+  {
+    "questions": "¿En qué fecha comenzó la Independencia de México?",
+    "answer1": "20 de noviembre de 1910",
+    "answer2": "16 de septiembre de 1810",
+    "answer3": "5 de mayo de 1862",
+    "answer4": "15 de septiembre de 1810",
+    "correct": "16 de septiembre de 1810"
+  },
+  {
+    "questions": "¿Quién dio el Grito de Dolores?",
+    "answer1": "José María Morelos",
+    "answer2": "Miguel Hidalgo",
+    "answer3": "Ignacio Allende",
+    "answer4": "Vicente Guerrero",
+    "correct": "Miguel Hidalgo"
+  },
+  {
+    "questions": "¿En qué año terminó la Independencia?",
+    "answer1": "1821",
+    "answer2": "1810",
+    "answer3": "1862",
+    "answer4": "1910",
+    "correct": "1821"
+  },
+  {
+    "questions": "¿Contra qué país lucharon los mexicanos para ser independientes?",
+    "answer1": "Francia",
+    "answer2": "Estados Unidos",
+    "answer3": "España",
+    "answer4": "Reino Unido",
+    "correct": "España"
+  },
+  {
+    "questions": "¿Qué ocurrió el 16 de septiembre de 1810?",
+    "answer1": "La firma de la independencia.",
+    "answer2": "El Grito de Dolores.",
+    "answer3": "La entrada del Ejército Trigarante.",
+    "answer4": "La derrota del ejército español.",
+    "correct": "El Grito de Dolores."
+  },
+  {
+    "questions": "¿Quién fue el cura que lideró el inicio de la Independencia?",
+    "answer1": "Vicente Guerrero",
+    "answer2": "Miguel Hidalgo",
+    "answer3": "Ignacio Allende",
+    "answer4": "José María Morelos",
+    "correct": "Miguel Hidalgo"
+  },
+  {
+    "questions": "¿Cómo se llama el ejército que entró triunfante en 1821?",
+    "answer1": "Ejército Insurgente",
+    "answer2": "Ejército Realista",
+    "answer3": "Ejército Trigarante",
+    "answer4": "Ejército Federal",
+    "correct": "Ejército Trigarante"
+  },
+  {
+    "questions": "¿Qué significó ser independiente para México?",
+    "answer1": "Liberarse de Francia.",
+    "answer2": "Liberarse de España.",
+    "answer3": "Ser parte de Estados Unidos.",
+    "answer4": "Adoptar una monarquía.",
+    "correct": "Liberarse de España."
+  },
+  {
+    "questions": "¿Quién fue José María Morelos?",
+    "answer1": "Un líder insurgente.",
+    "answer2": "El presidente de México.",
+    "answer3": "Un militar español.",
+    "answer4": "El primer emperador de México.",
+    "correct": "Un líder insurgente."
+  },
+  {
+    "questions": "¿Qué documento consolidó la Independencia de México?",
+    "answer1": "Plan de Iguala",
+    "answer2": "Acta de Independencia",
+    "answer3": "Constitución de 1824",
+    "answer4": "Plan de Ayutla",
+    "correct": "Acta de Independencia"
+  }
+]}

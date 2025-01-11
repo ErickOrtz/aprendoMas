@@ -1,0 +1,84 @@
+{
+  "matQuestions": [
+    {
+      "questions": "¿Cuánto mide un ángulo recto?",
+      "answer1": "90°",
+      "answer2": "45°",
+      "answer3": "180°",
+      "answer4": "120°",
+      "correct": "90°"
+    },
+    {
+      "questions": "¿Cómo se llama un ángulo que mide más de 90° pero menos de 180°?",
+      "answer1": "Recto",
+      "answer2": "Obtuso",
+      "answer3": "Agudo",
+      "answer4": "Llano",
+      "correct": "Obtuso"
+    },
+    {
+      "questions": "¿Cuánto es 6 × 7?",
+      "answer1": "42",
+      "answer2": "36",
+      "answer3": "49",
+      "answer4": "48",
+      "correct": "42"
+    },
+    {
+      "questions": "Si tienes 9 manzanas y regalas 3, ¿cuántas quedan?",
+      "answer1": "6",
+      "answer2": "9",
+      "answer3": "3",
+      "answer4": "12",
+      "correct": "6"
+    },
+    {
+      "questions": "¿Qué operación haces para juntar cantidades?",
+      "answer1": "Multiplicación",
+      "answer2": "Resta",
+      "answer3": "Suma",
+      "answer4": "División",
+      "correct": "Suma"
+    },
+    {
+      "questions": "¿Cuál es el resultado de 15 − 5?",
+      "answer1": "20",
+      "answer2": "10",
+      "answer3": "5",
+      "answer4": "15",
+      "correct": "10"
+    },
+    {
+      "questions": "Da un ejemplo de un ángulo agudo.",
+      "answer1": "45°",
+      "answer2": "90°",
+      "answer3": "120°",
+      "answer4": "180°",
+      "correct": "45°"
+    },
+    {
+      "questions": "¿Cuánto mide un ángulo llano?",
+      "answer1": "0°",
+      "answer2": "90°",
+      "answer3": "180°",
+      "answer4": "360°",
+      "correct": "180°"
+    },
+    {
+      "questions": "¿Qué número falta? 8 × ? = 24",
+      "answer1": "4",
+      "answer2": "3",
+      "answer3": "6",
+      "answer4": "5",
+      "correct": "3"
+    },
+    {
+      "questions": "¿Qué tipo de ángulo es la esquina de una hoja de papel?",
+      "answer1": "Recto",
+      "answer2": "Agudo",
+      "answer3": "Obtuso",
+      "answer4": "Llano",
+      "correct": "Recto"
+    }
+  ]
+}

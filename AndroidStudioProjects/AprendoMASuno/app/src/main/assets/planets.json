@@ -1,0 +1,66 @@
+{"planets":[
+  {
+    "questions": "¿Cuál es el planeta más cercano al Sol?",
+    "answer1": "Venus",
+    "answer2": "Tierra",
+    "answer3": "Mercurio",
+    "answer4": "Marte",
+    "correct": "Mercurio"
+  },
+  {
+    "questions": "¿Cuál es el planeta más grande del sistema solar?",
+    "answer1": "Júpiter",
+    "answer2": "Saturno",
+    "answer3": "Urano",
+    "answer4": "Neptuno",
+    "correct": "Júpiter"
+  },
+  {
+    "questions": "¿Cuál es el único planeta donde sabemos que hay vida?",
+    "answer1": "Marte",
+    "answer2": "Tierra",
+    "answer3": "Venus",
+    "answer4": "Saturno",
+    "correct": "Tierra"
+  },
+  {
+    "questions": "¿Cómo se llama el satélite natural de la Tierra?",
+    "answer1": "Luna",
+    "answer2": "Europa",
+    "answer3": "Titán",
+    "answer4": "Deimos",
+    "correct": "Luna"
+  },
+  {
+    "questions": "¿Qué planeta tiene anillos visibles desde la Tierra?",
+    "answer1": "Júpiter",
+    "answer2": "Saturno",
+    "answer3": "Urano",
+    "answer4": "Neptuno",
+    "correct": "Saturno"
+  },
+  {
+    "questions": "¿Qué es el Sol?",
+    "answer1": "Una estrella",
+    "answer2": "Un planeta",
+    "answer3": "Un asteroide",
+    "answer4": "Una luna",
+    "correct": "Una estrella"
+  },
+  {
+    "questions": "¿Cuántos planetas hay en el sistema solar?",
+    "answer1": "8",
+    "answer2": "9",
+    "answer3": "7",
+    "answer4": "10",
+    "correct": "8"
+  },
+  {
+    "questions": "¿Cuál es el planeta conocido como el planeta rojo?",
+    "answer1": "Marte",
+    "answer2": "Venus",
+    "answer3": "Júpiter",
+    "answer4": "Mercurio",
+    "correct": "Marte"
+  }
+]}

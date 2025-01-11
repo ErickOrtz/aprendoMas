@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoMat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#F3F4F6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleMath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matemáticas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:gravity="center"
+                android:padding="16dp" />
+
+            <TextView
+                android:id="@+id/subtitleAngles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipos de Ángulos"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FF9800"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ángulo recto: Mide 90°. Ejemplo: la esquina de un cuaderno."
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ángulo agudo: Mide menos de 90°. Ejemplo: un pico de montaña."
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ángulo obtuso: Mide más de 90° pero menos de 180°. Ejemplo: la hora en que el reloj marca las 10:10."
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ángulo llano: Mide 180°. Ejemplo: una línea recta."
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/subtitleMultiplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multiplicación"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Es una forma de sumar varias veces el mismo número."
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ejemplo: 3 × 4 = 12"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(Es como sumar 4 tres veces: 4 + 4 + 4)"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/subtitleAddition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suma"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#2196F3"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Es unir o juntar cantidades."
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ejemplo: 5 + 3 = 8"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/subtitleSubtraction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resta"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#9C27B0"
+                android:paddingTop="12dp"
+                android:paddingBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#FFFFFF"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Es quitar o separar cantidades."
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ejemplo: 10 − 4 = 6"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#3F51B5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="0dp">
+                <ImageButton
+                    android:id="@+id/botonVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/baseline_ondemand_video_24"></ImageButton>
+                <TextView
+                    android:text="Ver Video"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <!-- Ventana flotante -->
+    <FrameLayout
+        android:id="@+id/floatingWindowMatVid"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/floatingCardMat"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/verde_lima"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/cardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tipos de Angulos"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center" />
+
+                <!-- VideoView -->
+                <VideoView
+                    android:id="@+id/videoViewMat"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="16dp" />
+
+                <!-- Controles de video -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/playButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:background="@drawable/play"/>
+
+                    <Button
+                        android:id="@+id/pauseButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:background="@drawable/stop" />
+
+                    <Button
+                        android:id="@+id/stopButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:background="@drawable/finish"/>
+                </LinearLayout>
+
+                <!-- Botón de cierre -->
+                <Button
+                    android:id="@+id/closeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:background="@color/colorBlue"
+                    android:text="Cerrar" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

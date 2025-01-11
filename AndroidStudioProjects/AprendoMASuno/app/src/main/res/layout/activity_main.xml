@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    tools:context=".MainActivity">
+
+    <!-- AppBarLayout con el Toolbar dentro -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco"
+        android:fitsSystemWindows="true"
+        app:statusBarForeground="@color/blanco">
+        <TextView
+            android:id="@+id/nameApp"
+            android:fontFamily="@font/fredoka_one"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@color/amarillo_brillante"
+            android:text="Aprendo+"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            tools:ignore="InvalidId"></TextView>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Contenido principal dentro del NestedScrollView -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Card de Matemáticas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="16dp">
+
+                <!-- MaterialCardView -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/matematicsCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="16dp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="25dp"
+                    app:strokeWidth="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:onClick="iniciarMat"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/agbalumo"
+                            android:text="Matemáticas"
+                            android:textColor="@color/gris_oscuro"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- ImageButton -->
+                <ImageButton
+                    android:id="@+id/bookButtonMat"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@null"
+                    android:src="@drawable/baseline_book_24" />
+            </LinearLayout>
+
+
+
+            <!-- Card de Español -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="16dp">
+
+                <!-- MaterialCardView -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/spanishCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="16dp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="25dp"
+                    app:strokeWidth="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:onClick="iniciarEsp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/agbalumo"
+                            android:text="Español"
+                            android:textColor="@color/gris_oscuro"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- ImageButton -->
+                <ImageButton
+                    android:id="@+id/bookButtonSapanish"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@null"
+                    android:src="@drawable/baseline_book_24" />
+            </LinearLayout>
+
+
+            <!-- Card de Historia -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_margin="16dp">
+
+                <!-- MaterialCardView -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/historyCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="16dp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:cardCornerRadius="25dp"
+                    app:strokeWidth="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:onClick="iniciarHist"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/agbalumo"
+                            android:text="Historia"
+                            android:textColor="@color/gris_oscuro"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- ImageButton -->
+                <ImageButton
+                    android:id="@+id/bookButtonHist"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@null"
+                    android:src="@drawable/baseline_book_24" />
+            </LinearLayout>
+
+            <!-- Card de Planetas -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/planetsCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                app:cardBackgroundColor="@color/card_background"
+                app:cardCornerRadius="25dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:onClick="iniciarPlanets"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/agbalumo"
+                        android:text="Planetas"
+                        android:textColor="@color/gris_oscuro"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:gravity="right|bottom"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <ImageView
+                    android:src="@drawable/roblos"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"></ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="0dp"
+                android:gravity="left|bottom"
+                android:text="Desing by @Erick"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

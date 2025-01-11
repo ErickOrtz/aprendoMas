@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="#F3F4F6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conoce la Historia de México"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="#3F51B5"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/independenciaTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Independencia de México"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inicio: 16 de septiembre de 1810 con el Grito de Dolores, liderado por el cura Miguel Hidalgo y Costilla."
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motivo: Los mexicanos lucharon contra los españoles para lograr ser un país independiente."
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fin: En 1821, con la entrada del Ejército Trigarante a la Ciudad de México."
+                android:textSize="16sp"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/revolucionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Revolución Mexicana"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inicio: 20 de noviembre de 1910."
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motivo: Lucha para mejorar las condiciones de vida de los campesinos y obreros, y para terminar con el gobierno injusto de Porfirio Díaz."
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Líderes importantes: Francisco I. Madero, Emiliano Zapata, y Pancho Villa."
+                android:textSize="16sp"
+                android:paddingBottom="16dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="0dp">
+                <ImageButton
+                    android:id="@+id/botonVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/baseline_ondemand_video_24" />
+                <TextView
+                    android:text="Ver Video"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Ventana flotante -->
+    <FrameLayout
+        android:id="@+id/floatingWindowHistory"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/floatingCardHistory"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/colorBrown"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/cardTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historia de México"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center" />
+
+                <!-- VideoView -->
+                <VideoView
+                    android:id="@+id/videoViewHistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="16dp" />
+
+                <!-- Controles de video -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/playButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:background="@drawable/play" />
+
+                    <Button
+                        android:id="@+id/pauseButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:background="@drawable/stop" />
+
+                    <Button
+                        android:id="@+id/stopButton"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:background="@drawable/finish" />
+                </LinearLayout>
+
+                <!-- Botón de cierre -->
+                <Button
+                    android:id="@+id/closeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:background="@color/colorBlue"
+                    android:text="Cerrar" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

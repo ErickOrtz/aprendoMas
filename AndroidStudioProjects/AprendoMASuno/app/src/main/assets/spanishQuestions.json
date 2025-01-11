@@ -1,0 +1,84 @@
+{
+  "Esp": [
+    {
+      "questions": "¿Qué tipo de palabra es 'correr'?",
+      "answer1": "Sustantivo",
+      "answer2": "Verbo",
+      "answer3": "Adjetivo",
+      "answer4": "Adverbio",
+      "correct": "Verbo"
+    },
+    {
+      "questions": "¿Qué son los sustantivos?",
+      "answer1": "Palabras que describen una acción.",
+      "answer2": "Palabras que describen características.",
+      "answer3": "Palabras que nombran personas, lugares o cosas.",
+      "answer4": "Palabras que expresan emociones.",
+      "correct": "Palabras que nombran personas, lugares o cosas."
+    },
+    {
+      "questions": "¿Cuál de estas palabras es un adjetivo: grande, perro, brincar?",
+      "answer1": "Grande",
+      "answer2": "Perro",
+      "answer3": "Brincar",
+      "answer4": "Ninguna",
+      "correct": "Grande"
+    },
+    {
+      "questions": "Encuentra el error: 'La niña canta hermoso en el parque.'",
+      "answer1": "No hay error.",
+      "answer2": "Debe ser 'hermosa.'",
+      "answer3": "Debe ser 'canta hermosamente.'",
+      "answer4": "Debe ser 'en el parqué.'",
+      "correct": "Debe ser 'canta hermosamente.'"
+    },
+    {
+      "questions": "Da un ejemplo de un verbo.",
+      "answer1": "Correr",
+      "answer2": "Rápido",
+      "answer3": "Libro",
+      "answer4": "Ciudad",
+      "correct": "Correr"
+    },
+    {
+      "questions": "¿Qué tipo de palabra describe a un sustantivo?",
+      "answer1": "Verbo",
+      "answer2": "Adjetivo",
+      "answer3": "Adverbio",
+      "answer4": "Pronombre",
+      "correct": "Adjetivo"
+    },
+    {
+      "questions": "Encuentra el error: 'El arbol es alto y verde.'",
+      "answer1": "Debe ser 'árbol.'",
+      "answer2": "Debe ser 'verdes.'",
+      "answer3": "Debe ser 'árboles.'",
+      "answer4": "No hay error.",
+      "correct": "Debe ser 'árbol.'"
+    },
+    {
+      "questions": "¿Qué tipo de palabra es 'libro'?",
+      "answer1": "Verbo",
+      "answer2": "Sustantivo",
+      "answer3": "Adjetivo",
+      "answer4": "Adverbio",
+      "correct": "Sustantivo"
+    },
+    {
+      "questions": "Da un ejemplo de un sustantivo.",
+      "answer1": "Correr",
+      "answer2": "Cuaderno",
+      "answer3": "Hermoso",
+      "answer4": "Rápido",
+      "correct": "Cuaderno"
+    },
+    {
+      "questions": "Encuentra el error: 'Mi amigo y yo fuimos a jugar futból.'",
+      "answer1": "Debe ser 'fútbol.'",
+      "answer2": "Debe ser 'jugábamos.'",
+      "answer3": "Debe ser 'futboles.'",
+      "answer4": "No hay error.",
+      "correct": "Debe ser 'fútbol.'"
+    }
+  ]
+}
